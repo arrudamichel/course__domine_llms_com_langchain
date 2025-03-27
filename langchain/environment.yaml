@@ -1,0 +1,24 @@
+name: llm_studies_dll_langchain
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+
+  - pip:
+
+    - transformers
+    - einops
+    - accelerate
+    - bitsandbytes==0.44.1
+    - jupyterlab
+
+    - langchain
+    - langchain-community
+    - langchain-huggingface
+    - langchainhub
+    - langchain_chroma
+
+    - jupyterlab
+    - tensorflow-macos
+    - tensorflow-metal

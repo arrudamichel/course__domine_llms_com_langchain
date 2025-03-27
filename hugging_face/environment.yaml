@@ -1,0 +1,16 @@
+name: llm_studies_dll_hugging
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+
+  - pip:
+    - transformers
+    - einops
+    - accelerate
+    #- bitsandbytes
+    - jupyterlab
+
+    - tensorflow-macos
+    - tensorflow-metal
